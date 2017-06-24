@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
     <body>
-      <h2>Sample Text</h2>
+      <div class="container-fluid">
+          <h2 class="text-center"> Fill Out The Registration Form</h2>
+          <p id="survPara" class="text-center"> *required fields</p>
+      <form action="Submitted.html">
+        <div class="col">
+          <div class="col-md-4">
+            <label id="tLabel1">*First Name: <input id="firstName" type="text" placeholder="First Name (e.g. John)" size="20px" required></label>
+            <label id="tLabel2">Last Name: <input id="lastName" type="text" placeholder="Last Name (e.g. Brown)" size="20px"></label>
+            <label id="tLabel3">*Email: <input id="emailA" type="text" placeholder="Email Address (e.g. name@domain.com)" size="34px" required></label>
+            <label id="tLabel4">*Password: <input id="passWord" type="password" placeholder="Password" size="20px" required></label>
+          </div>
+         <div class="col">
+           <div class="col-md-1">
+             <button id="submitB" type="submit" value="Submit" class="btn btn-block"><b>Submit</b></button>
+           </div>
+         </div>
+        </div>
+      </form>
+      </div>
     </body>
 </html>

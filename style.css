@@ -8,15 +8,54 @@
 	font-family: times !important;
 	font-weight: bold !important;
 }
-#h1 {color: #00EE00;}
-#h2 {color: red;}
-#h3 {color: blue;}
+#h1 {color: #00CD00;}
+#h2 {color: #EE2C2C;}
+#h3 {color: #00BFFF;}
 
-h2 {color: white !important;}
+#rh1 {
+	color: white;
+	position: relative;
+	left: 20px;
+}
+h2 {color: white !important; font-size: 40px !important;}
 body {background-color: #282828 !important;}
 #body2 {background-color: black !important;}
-
-#spooky {
+#submitB {
+	font-size: 20px;
+	position: relative;
+	top: 480px;
+	left: 250px;
+}
+#survPara {
+	color: white;
+	font-size: 20px;
+}
+#firstName, #lastName, #emailA, #passWord {
+	color: black;
+	position: relative;
+}
+#tLabel1, #tLabel2, #tLabel3, #tLabel4 {
+	color: white;
+	position: relative;
+	font-size: 20px;
+}
+#tLabel1 {
+	left: 690px;
+	top: 55px;
+}
+#tLabel2 {
+	left: 700px;
+	top: 122px;
+}
+#tLabel3 {
+	left: 740px;
+	top: 190px;
+}
+#tLabel4 {
+	left: 700px;
+	top: 250px;
+}
+#goodBoy {
 	position: relative;
 	font-family: monospace;
 	font-size: 100px;
