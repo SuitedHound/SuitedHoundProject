@@ -20,6 +20,7 @@
 h2 {color: white !important; font-size: 40px !important;}
 body {background-color: #282828 !important;}
 #body2 {background-color: black !important;}
+#portalButtons {font-size: 20px;}
 #submitB {
 	font-size: 20px;
 	position: relative;
