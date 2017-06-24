@@ -1,0 +1,42 @@
+#h1row {
+	font-family: 'Droid Serif', Serif;
+	color: white;
+}
+#h11 {font-size: 100px;}
+#h1, #h2, #h3 {
+	font-size:100px !important;
+	font-family: times !important;
+	font-weight: bold !important;
+}
+#h1 {color: #00EE00;}
+#h2 {color: red;}
+#h3 {color: blue;}
+
+h2 {color: white !important;}
+body {background-color: #282828 !important;}
+#body2 {background-color: black !important;}
+
+#spooky {
+	position: relative;
+	font-family: monospace;
+	font-size: 100px;
+	color: white;
+	top: 400px;
+}
+#buttons {
+	position: relative;
+	top: 25px;
+}
+#img1, #img2, #img3 {
+	position: relative;
+	top: 45px;
+	left: 30px;
+	width: 550px;
+	height: 512px;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 100%;
+}
+#img1 {border-color: #00EE00;}
+#img2 {border-color: red;}
+#img3 {border-color: blue;}
